@@ -622,3 +622,7 @@ if __name__ == "__main__":
     init_db()
     # Host 0.0.0.0 only if you want LAN access. For single PC: 127.0.0.1 is enough.
     app.run(host="127.0.0.1", port=5000, debug=True)
+
+
+# This is the rest of the file.
+init_db()
